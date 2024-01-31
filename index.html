@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+
+    <!-- cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css "
+    />
+  </head>
+  <body>
+    <header id="header">
+      <a href="#profile" class="logo">Aditya Nishad</a>
+      <div>
+        <ul id="navbar">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li id="cv_btn">
+            <a onclick="window.open('./img/ADITYA_NISHAD_Resume.pdf')"
+              >Download CV</a
+            >
+          </li>
+
+          <a id="close"><i class="far fa-times"></i></a>
+        </ul>
+      </div>
+      <div class="buttons">
+        <button
+          class="btn"
+          type="button"
+          onclick="window.open('./img/ADITYA_NISHAD_Resume.pdf')"
+        >
+          Download CV
+        </button>
+      </div>
+
+      <div id="mobile">
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </header>
+
+    <!-- contact-info-button -->
+
+    <div class="contact-info-conatiner">
+      <div id="close-contact-btn" class="fas fa-times"></div>
+      <div class="box">
+        <h3>Contact Info</h3>
+        <div class="detail-link">
+          <a href="mailto: adityanishad292@gmail.com" target="_blank"
+            ><i class="fas fa-envelope"></i>adityanishad292@gmail.com</a
+          >
+          <a href="Tel: 7620650868" target="_blank"
+            ><i class="fas fa-phone fa-rotate-90"></i>7620650868</a
+          >
+          <a
+            href="https://wa.me/7620650868?text=Hello Aditya..!"
+            target="_blank"
+            ><i class="fab fa-whatsapp"></i>Whatsapp</a
+          >
+          <a href="https://www.linkedin.com/in/nishadaditya/" target="_blank"
+            ><i class="fab fa-linkedin"></i>Linkedin</a
+          >
+          <a href="https://www.instagram.com/_a_d_i_2_9_2_/" target="_blank"
+            ><i class="fab fa-instagram"></i>Instagram</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <section id="profile">
+      <div class="box">
+        <div class="image">
+          <img src="profile photo/p1.png" alt="" />
+        </div>
+        <div class="details">
+          <p>Hello, I'm</p>
+          <h1>Aditya Nishad</h1>
+          <span>Frontend Developer</span>
+          <div class="btn-container">
+            <button
+              class="btn btn_cv"
+              type="button"
+              onclick="window.open('./img/ADITYA_NISHAD_Resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="btn btn_info"
+              id="contact-btn"
+              type="button"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+          <div class="social-icon">
+            <img
+              class="linkedin"
+              src="img/linkedin.png"
+              alt="Linkedin Profile"
+              onclick="window.open('https://www.linkedin.com/in/nishadaditya/' + location.search)"
+            />
+            <img
+              class="github"
+              src="img/github.png"
+              alt="Github Profile"
+              onclick="window.open('https://github.com/aditya292' + location.search)"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="about">
+      <div class="heading">
+        <p>Get to know more</p>
+        <h1>About me</h1>
+      </div>
+      <div class="box">
+        <div class="content">
+          <p>
+            Hello!<br />
+            I'm Aditya Nishad,<br />
+            a recent graduate with a Bachelor's in
+            <span><i> Computer Engineering</i></span
+            >.<br />
+            I am passionate about <span><i>Frontend Development</i> </span> and
+            eager to kickstart my career in a dynamic and innovative
+            environment. Here are some of my Achievements.<br />
+          </p>
+        </div>
+        <div class="certification">
+          <div class="paper-box">
+            <h1>Achievements</h1>
+            <img src="img/achivement.png" alt="" />
+          </div>
+          <div class="item-box">
+            <div class="item">
+              <div>
+                <span>Programming in Python</span>
+                <p>By Meta</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/QCNLJ24JDWW9"
+                target="_blank"
+                ><i class="fas fa-link"></i
+              ></a>
+            </div>
+            <div class="item">
+              <div>
+                <span>Introduction to SQL</span>
+                <p>By University Of Michigan</p>
+              </div>
+              <a
+                href="https://www.coursera.org/account/accomplishments/verify/YM25DNDQKJSQ"
+                target="_blank"
+                ><i class="fas fa-link"></i
+              ></a>
+            </div>
+            <div class="item">
+              <div>
+                <span>Front End Development</span>
+                <p>By Simplilearn</p>
+              </div>
+              <a
+                href="https://simpli-web.app.link/e/YRyNIzzu4xb"
+                target="_blank"
+                ><i class="fas fa-link"></i
+              ></a>
+            </div>
+            <div class="item">
+              <div>
+                <span>SWE Virtual Experience</span>
+                <p>by JPMorgan Chase & Co</p>
+              </div>
+              <a
+                href="https://drive.google.com/file/d/1R4gNOmVkMbj8crh3xc0owe01dLaHTGaw/view"
+                target="_blank"
+                ><i class="fas fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="skills">
+      <div class="heading">
+        <p>Explore My</p>
+        <h1>Skills</h1>
+      </div>
+      <div class="skill-container">
+        <div class="skill-box">
+          <div class="item" id="item1">
+            <img src="skill-img/html2.png" id="img1" alt="" />
+            <span>HTML</span>
+          </div>
+          <div class="item" id="item2">
+            <img src="skill-img/css2.png" id="img2" alt="" />
+            <span>CSS</span>
+          </div>
+          <div class="item" id="item3">
+            <img src="skill-img/js2.png" id="img3" alt="" />
+            <span>JavaScript</span>
+          </div>
+          <div class="item" id="item4">
+            <img src="skill-img/boot2.svg" id="img4" alt="" />
+            <span>Bootstrap</span>
+          </div>
+          <div class="item" id="item5">
+            <img src="skill-img/tailwind2.png" id="img5" alt="" />
+            <span>TailWind</span>
+          </div>
+          <div class="item" id="item6">
+            <img src="skill-img/react2.png" id="img6" alt="" />
+            <span>React</span>
+          </div>
+          <div class="item" id="item7">
+            <img src="skill-img/python2.png" id="img7" alt="" />
+            <span>Python</span>
+          </div>
+          <div class="item" id="item8">
+            <img src="skill-img/database2.png" id="img8" alt="" />
+            <span>SQL</span>
+          </div>
+          <div class="item" id="item9">
+            <img src="skill-img/git2.png" id="img9" alt="" />
+            <span>git</span>
+          </div>
+        </div>
+        <div class="skill-gif">
+          <img src="skill-img/Programming.gif" />
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="project">
+      <div class="heading">
+        <p>Browse My Recent</p>
+        <h1>Projects</h1>
+      </div>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="project-image/zara2.png" id="pro-img" alt="" />
+          <div class="project-content">
+            <h2>Zara Collection</h2>
+            <p>
+              Zara Collection is an E-commerce website that sells premium
+              collection of cloths online. It provide simple user interface with
+              add to cart menu that help users to navigate easily.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/aditya292/E-commerce-website"
+                id="code1"
+                target="_blank"
+                onmouseover="changeImg('code-img1','img/github2.png')"
+                onmouseout="changeBackImg('code-img1','img/github.png')"
+              >
+                <span>Code</span>
+                <img src="img/github.png" id="code-img1" alt="" />
+              </a>
+              <a
+                href="https://zaracollection.netlify.app/"
+                target="_blank"
+                id="live1"
+                onmouseover="changeImg('live-img1','img/earth.png')"
+                onmouseout="changeBackImg('live-img1','img/earth2.png')"
+              >
+                <span>Live Demo</span>
+                <img src="img/earth2.png" id="live-img1" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-box reverse-box">
+          <div class="project-content">
+            <h2>Textopia</h2>
+            <p>
+              Textopia is a online book store, Where user can buy or rent any
+              books. This online book store provide e-book that you can read
+              anywhere in just one click. Textopia is simple user interfce
+              website that can help lots of student.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/aditya292/Textopia-Book-store"
+                id="code2"
+                target="_blank"
+                onmouseover="changeImg('code-img2','img/github2.png')"
+                onmouseout="changeBackImg('code-img2','img/github.png')"
+              >
+                <span>Code</span>
+                <img src="img/github.png" id="code-img2" alt="" />
+              </a>
+              <a
+                href="https://text-opia.netlify.app/"
+                target="_blank"
+                id="live2"
+                onmouseover="changeImg('live-img2','img/earth.png')"
+                onmouseout="changeBackImg('live-img2','img/earth2.png')"
+              >
+                <span>Live Demo</span>
+                <img src="img/earth2.png" id="live-img2" alt="" />
+              </a>
+            </div>
+          </div>
+          <img src="project-image/textopia.png" id="pro-img" alt="" />
+        </div>
+
+        <div class="project-box">
+          <img src="project-image/news.png" id="pro-img" alt="" />
+          <div class="project-content">
+            <h2>News AGGREGATOR</h2>
+            <p>
+              A news aggregator website serves as a centralized platform that
+              compiles and organizes news articles, headlines, and updates from
+              various sources across the internet. Users can access a diverse
+              range of news content conveniently in one location, saving time
+              and effort in navigating multiple individual news websites.
+            </p>
+            <div class="project-links">
+              <a
+                href="https://github.com/aditya292/News-Aggregator"
+                id="code3"
+                onmouseover="changeImg('code-img3','img/github2.png')"
+                onmouseout="changeBackImg('code-img3','img/github.png')"
+              >
+                <span>Code</span>
+                <img src="img/github.png" id="code-img3" alt="" />
+              </a>
+              <a
+                href="#"
+                id="live3"
+                onmouseover="changeImg('live-img3','img/earth.png')"
+                onmouseout="changeBackImg('live-img3','img/earth2.png')"
+              >
+                <span> Live Demo</span>
+                <img src="img/earth2.png" id="live-img3" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="contact">
+      <div class="heading">
+        <p>Get in touch</p>
+        <h1>Contact</h1>
+      </div>
+      <div class="contact-container">
+        <img src="img/contact-man.png" class="img1" alt="" />
+        <img src="img/contact.jpg" class="img2" alt="" />
+
+        <div class="contact-box">
+          <h2>get in touch</h2>
+          <div>
+            <i class="fas fa-envelope"></i>
+            <a href="mailto: adityanishad292@gmail.com" target="_blank"
+              >adityanishad292@gmail.com</a
+            >
+          </div>
+          <div>
+            <i class="fas fa-phone fa-rotate-90"></i>
+            <a href="Tel: 7620650868" target="_blank">+91 76206-50868</a>
+          </div>
+          <div>
+            <i class="fab fa-whatsapp"></i>
+            <a
+              href="https://wa.me/7620650868?text=Hello Aditya..!"
+              target="_blank"
+              >Whatsapp</a
+            >
+          </div>
+          <div>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/nishadaditya/" target="_blank"
+              >Linkedin</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a href="#" onclick="scrollFunction()" title="Go To Top" id="scroll-btn">
+      <img src="img/arrow.png" alt="" />
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
